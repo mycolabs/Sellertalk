@@ -47,25 +47,6 @@ export const ThankYouPage: React.FC<ThankYouPageProps> = ({ onBackToHome }) => {
             </button>
           </div>
 
-          <div className="space-y-4">
-            <a
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-green-600/40 group relative overflow-hidden transform-gpu"
-            >
-              <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-green-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              <span className="relative z-10 flex items-center gap-3">
-              <MessageCircle className="w-6 h-6" />
-              Chat with us on WhatsApp
-              <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-              </span>
-            </a>
-            
-            <div className="text-sm text-slate-500">
-              In the meantime, save our number: {WA_NUMBER}
-            </div>
-          </div>
 
           <button
             onClick={onBackToHome}
