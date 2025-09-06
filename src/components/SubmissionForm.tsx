@@ -203,7 +203,7 @@ export const SubmissionForm: React.FC<SubmissionFormProps> = ({ onSuccess }) => 
                   validate: (value) => validateWhatsAppNumber(value) || 'Please enter valid WhatsApp number'
                 })}
                 type="tel"
-                placeholder="+91 98765 43210"
+                placeholder=""
                 autoComplete="tel"
                 className={`w-full px-4 py-3 pr-12 border rounded-lg transition-all duration-200 min-h-[44px] ${
                   errors.whatsapp_number 
